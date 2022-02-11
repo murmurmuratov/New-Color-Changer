@@ -20,6 +20,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="lef-Ph-Wcy">
                         <barButtonItem key="rightBarButtonItem" systemItem="compose" id="mzY-D3-IzV">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="Sii-xe-WVg" kind="presentation" identifier="showColorChanger" modalPresentationStyle="fullScreen" id="KYI-EE-he0"/>
                             </connections>
@@ -162,6 +163,7 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Si-Mj-l3o">
                                 <rect key="frame" x="143.5" y="555.5" width="88.5" height="47.5"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Done">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="28"/>
@@ -209,6 +211,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CbK-1Q-iB5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance" backgroundEffect="regular"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

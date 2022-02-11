@@ -176,7 +176,7 @@ extension ColorChangerViewController: UITextFieldDelegate {
         view.endEditing(true)
     }
     
-    func textFieldDidBeginEditing(_ textField: UITextField) {
+    func textFieldDidChangeSelection(_ textField: UITextField) {
         switch textField.tag {
         case 0:
             textField.attributedPlaceholder = NSAttributedString(string: string(for: redSlider))
